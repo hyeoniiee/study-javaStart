@@ -1,9 +1,11 @@
 package basic.pack;
 
+import basic.pack.a.User;
+
 public class PackageMain1 {
     public static void main(String[] args) {
         Data data = new Data();
-        pack.a.User user = new pack.a.User();
+        User user = new User();
     }
     /*
     `pack` 패키지 위치에 `PackageMain1` 클래스를 만들었다.
