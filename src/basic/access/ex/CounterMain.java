@@ -14,7 +14,7 @@ public class CounterMain {
     해당 클래스는 다른 패키지에서도 사용할 수 있어야 합니다.
      */
     public static void main(String[] args) {
-        access.ex.MaxCounter counter = new access.ex.MaxCounter(3);
+        MaxCounter counter = new MaxCounter(3);
         counter.increment();
         counter.increment();
         counter.increment();
